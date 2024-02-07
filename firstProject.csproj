@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>gestionStock.ico</ApplicationIcon>
+    <PackageIcon>gestionStock.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="%24.jpg" />
+    <None Remove="2077070.jpg" />
+    <None Remove="anime-berserk-guts-wallpaper-thumb.jpg" />
+    <None Remove="background.jpg" />
+    <None Remove="berserk-guts-kentaro-miura-wallpaper-thumb.jpg" />
+    <None Remove="Black Liquid Minimalist Daily Quotes LinkedIn Banner.png" />
+    <None Remove="hajime-no-ippo-boxing-manga-legend-hd-wallpaper-preview.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="$.jpg" />
+    <Resource Include="2077070.jpg" />
+    <Resource Include="anime-berserk-guts-wallpaper-thumb.jpg" />
+    <Resource Include="background.jpg" />
+    <Resource Include="hajime-no-ippo-boxing-manga-legend-hd-wallpaper-preview.jpg" />
+  </ItemGroup>
+
+</Project>
