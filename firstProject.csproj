@@ -11,8 +11,6 @@
 
   <ItemGroup>
     <None Remove="%24.jpg" />
-    <None Remove="2077070.jpg" />
-    <None Remove="anime-berserk-guts-wallpaper-thumb.jpg" />
     <None Remove="background.jpg" />
     <None Remove="berserk-guts-kentaro-miura-wallpaper-thumb.jpg" />
     <None Remove="Black Liquid Minimalist Daily Quotes LinkedIn Banner.png" />
@@ -25,8 +23,6 @@
 
   <ItemGroup>
     <Resource Include="$.jpg" />
-    <Resource Include="2077070.jpg" />
-    <Resource Include="anime-berserk-guts-wallpaper-thumb.jpg" />
     <Resource Include="background.jpg" />
     <Resource Include="hajime-no-ippo-boxing-manga-legend-hd-wallpaper-preview.jpg" />
   </ItemGroup>
