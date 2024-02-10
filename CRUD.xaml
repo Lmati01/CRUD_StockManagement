@@ -26,6 +26,6 @@
         <Button x:Name="updateBtn" Content="Update Record" HorizontalAlignment="Left" Height="32" Margin="279,361,0,0" VerticalAlignment="Top" Width="112" FontFamily="Arial Black" Click="updateBtn_Click"/>
         <Button x:Name="deleteBtn" Content="Delete Record" HorizontalAlignment="Left" Height="32" Margin="425,361,0,0" VerticalAlignment="Top" Width="108" FontFamily="Arial Black" Click="deleteBtn_Click"/>
         <Button x:Name="clearBtn" Content="Clear Data" HorizontalAlignment="Left" Height="32" Margin="568,361,0,0" VerticalAlignment="Top" Width="96" FontFamily="Arial Black" Click="clearBtn_Click"/>
-        <DataGrid x:Name="dataGrid" Height="140" Margin="417,114,0,0" VerticalAlignment="Top" d:ItemsSource="{d:SampleData ItemCount=5}" BorderBrush="White"  HorizontalAlignment="Left" Width="295"/>
+        <DataGrid x:Name="dataGrid" Height="140" Margin="417,114,0,0" VerticalAlignment="Top" d:ItemsSource="{d:SampleData ItemCount=5}" BorderBrush="White"  HorizontalAlignment="Left" Width="295" SelectionChanged="dataGrid_SelectionChanged"/>
     </Grid>
 </Window>
